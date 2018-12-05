@@ -54,4 +54,8 @@ public class Bar01 {
         ChartUtilities.saveChartAsJPEG(new File("/Users/haogaofeng/Downloads/JFreeChart/bar001.jpg"),jFreeChart,700,600);
         System.out.println("ok");
     }
+
+    public void upLoad(){
+        System.out.println("check");
+    }
 }
